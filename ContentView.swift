@@ -13,7 +13,7 @@ struct ContentView: View {
                     .foregroundStyle(Color.brown)
                     .overlay{
                         NavigationLink("Add a Recipe") {
-                            LibraryView()
+                            addrecipe()
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 36))
                     .padding()
