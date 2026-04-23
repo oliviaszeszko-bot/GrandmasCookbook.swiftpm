@@ -9,12 +9,6 @@ import SwiftUI
 struct LibraryView: View {
 
     var body: some View {
-       
-
-        
-        
-        
-        
         VStack{
             HStack{
                 RoundedRectangle(cornerRadius: 20)
@@ -34,6 +28,15 @@ struct LibraryView: View {
                             LunchView()
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 50))
+                    .padding()
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Snacks") {
+                            SnackView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
                     .padding()
             }
             
