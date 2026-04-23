@@ -7,8 +7,24 @@
 import SwiftUI
 
 struct LibraryView: View {
-    
+
     var body: some View {
+       
+
+        
+        
+        
+        
+        
+        RoundedRectangle(cornerRadius: 20)
+            .frame(width: 200, height: 200)
+            .foregroundStyle(Color.brown)
+            .overlay{
+                NavigationLink("Breakfast") {
+                    BreakfastView()
+                }}.foregroundStyle(.white)
+            .font(.custom("Baskerville", size: 43))
+            .padding()
         VStack{
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: 200, height: 200)
