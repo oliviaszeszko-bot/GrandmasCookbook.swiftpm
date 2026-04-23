@@ -6,21 +6,33 @@ struct addrecipe: View {
     @State var cooktime = ""
     @State var sevings  = ""
     var body: some View {
-        HStack {
+        HStack{
             Text("Recipe Name")
+                .font(.custom("Baskerville", size: 35))
             TextField("", text: $recipename)
-                 .font(.custom("Baskerville", size: 50))
+                .font(.title)
+                .textFieldStyle(.roundedBorder)
         }
-      
-        
-        TextField("Oven Temp", text: $oventemp)
-            .font(.custom("Baskerville", size: 50))
-        TextField("Cook Time", text: $cooktime)
-            .font(.custom("Baskerville", size: 50))
-        TextField("Servings", text: $sevings)
-            .font(.custom("Baskerville", size: 50))
+        HStack{
+            Text("Oven Temp")
+                .font(.custom("Baskerville", size: 35))
+            TextField("", text: $oventemp)
+                .font(.custom("Baskerville", size: 50))
+        }
+        HStack{
+            Text("Recipe Name")
+                .font(.custom("Baskerville", size: 35))
+            TextField("Cook Time", text: $cooktime)
+                .font(.custom("Baskerville", size: 50))
+        }
+            HStack{
+                Text("Recipe Name")
+                    .font(.custom("Baskerville", size: 35))
+                TextField("Servings", text: $sevings)
+                    .font(.custom("Baskerville", size: 50))
+            }
+        }
+        #Preview(traits: .landscapeLeft) {
+            ContentView()
+        }
     }
-}
-#Preview(traits: .landscapeLeft) {
-    ContentView()
-}
