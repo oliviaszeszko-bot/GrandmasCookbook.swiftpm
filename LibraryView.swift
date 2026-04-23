@@ -72,6 +72,15 @@ struct LibraryView: View {
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 43))
                     .padding()
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Vegetarian") {
+                            VegetarianView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
             }
         }
         
