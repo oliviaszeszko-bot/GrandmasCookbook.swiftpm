@@ -7,7 +7,7 @@
 import SwiftUI
 
 struct LibraryView: View {
-
+    
     var body: some View {
         
        Text("Recipe Library")
@@ -39,11 +39,20 @@ struct LibraryView: View {
                     .overlay{
                         NavigationLink("Dinner") {
                             DinnerView()
+                            }.foregroundStyle(.white)
+                            .font(.custom("Baskerville", size: 43))
+                            .padding()
+                    }
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Snacks") {
+                            SnackView()
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 43))
                     .padding()
             }
-            
         }
     }
 }
