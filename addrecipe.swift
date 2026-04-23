@@ -17,19 +17,22 @@ struct addrecipe: View {
             Text("Oven Temp")
                 .font(.custom("Baskerville", size: 35))
             TextField("", text: $oventemp)
-                .font(.custom("Baskerville", size: 50))
+                .font(.title)
+                .textFieldStyle(.roundedBorder)
         }
         HStack{
-            Text("Recipe Name")
+            Text("Cook Time")
                 .font(.custom("Baskerville", size: 35))
-            TextField("Cook Time", text: $cooktime)
-                .font(.custom("Baskerville", size: 50))
+            TextField("", text: $cooktime)
+                .font(.title)
+                .textFieldStyle(.roundedBorder)
         }
             HStack{
-                Text("Recipe Name")
+                Text("Servings")
                     .font(.custom("Baskerville", size: 35))
-                TextField("Servings", text: $sevings)
-                    .font(.custom("Baskerville", size: 50))
+                TextField("", text: $sevings)
+                    .font(.title)
+                    .textFieldStyle(.roundedBorder)
             }
         }
         #Preview(traits: .landscapeLeft) {
