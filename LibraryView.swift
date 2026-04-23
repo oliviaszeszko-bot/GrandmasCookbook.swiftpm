@@ -33,6 +33,8 @@ struct LibraryView: View {
                     .frame(width: 200, height: 200)
                     .foregroundStyle(Color.brown)
                     .overlay{
+                        NavigationLink("Dinner") {
+                            DinnerView()
                         NavigationLink("Snacks") {
                             SnackView()
                         }}.foregroundStyle(.white)
