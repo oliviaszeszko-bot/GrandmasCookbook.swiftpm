@@ -53,15 +53,26 @@ struct LibraryView: View {
                     .font(.custom("Baskerville", size: 43))
                     .padding()
             }
-            RoundedRectangle(cornerRadius: 20)
-                .frame(width: 200, height: 200)
-                .foregroundStyle(Color.brown)
-                .overlay{
-                    NavigationLink("Dessert") {
-                        DessertView()
-                    }}.foregroundStyle(.white)
-                .font(.custom("Baskerville", size: 43))
-                .padding()
+            HStack{
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Dessert") {
+                            DessertView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Gluten Free") {
+                            GlutenFreeView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
+            }
         }
        
         RoundedRectangle(cornerRadius: 20)
@@ -73,5 +84,6 @@ struct LibraryView: View {
                 }}.foregroundStyle(.white)
             .font(.custom("Baskerville", size: 43))
             .padding()
+        
     }
 }
