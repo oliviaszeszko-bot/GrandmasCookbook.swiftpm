@@ -35,6 +35,15 @@ struct LibraryView: View {
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 50))
                     .padding()
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Dinner") {
+                            DinnerView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
             }
             
         }
