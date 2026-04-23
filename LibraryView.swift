@@ -9,6 +9,10 @@ import SwiftUI
 struct LibraryView: View {
     
     var body: some View {
+        
+       Text("Recipe Library")
+            .font(.custom("Baskerville", size: 100))
+            .padding()
         VStack{
             HStack{
                 RoundedRectangle(cornerRadius: 20)
