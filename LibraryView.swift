@@ -15,26 +15,27 @@ struct LibraryView: View {
         
         
         
-        
-        RoundedRectangle(cornerRadius: 20)
-            .frame(width: 200, height: 200)
-            .foregroundStyle(Color.brown)
-            .overlay{
-                NavigationLink("Breakfast") {
-                    BreakfastView()
-                }}.foregroundStyle(.white)
-            .font(.custom("Baskerville", size: 43))
-            .padding()
         VStack{
-            RoundedRectangle(cornerRadius: 20)
-                .frame(width: 200, height: 200)
-                .foregroundStyle(Color.brown)
-                .overlay{
-                    NavigationLink("Lunch") {
-                        LunchView()
-                    }}.foregroundStyle(.white)
-                .font(.custom("Baskerville", size: 50))
-                .padding()
+            HStack{
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Breakfast") {
+                            BreakfastView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Lunch") {
+                            LunchView()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 50))
+                    .padding()
+            }
             
         }
     }
