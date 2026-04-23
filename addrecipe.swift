@@ -8,9 +8,8 @@ struct addrecipe: View {
     var body: some View {
         HStack {
             Text("Recipe Name")
-            TextField("Recipe Name", text: $recipename)
+            TextField("", text: $recipename)
                  .font(.custom("Baskerville", size: 50))
-            
         }
       
         
@@ -21,4 +20,7 @@ struct addrecipe: View {
         TextField("Servings", text: $sevings)
             .font(.custom("Baskerville", size: 50))
     }
+}
+#Preview(traits: .landscapeLeft) {
+    ContentView()
 }
