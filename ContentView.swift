@@ -5,7 +5,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack{
-                Image("cloth")
+                Image("bookpage")
                     .resizable()
                     .frame(width: 3300, height: 3000)
                 VStack {
@@ -37,6 +37,9 @@ struct ContentView: View {
                                     }}.foregroundStyle(.white)
                                 .font(.custom("Baskerville", size: 36))
                         }
+                        Image("knife")
+                            .resizable()
+                            .frame(width: 400, height: 400)
                     }
                     
                 }
