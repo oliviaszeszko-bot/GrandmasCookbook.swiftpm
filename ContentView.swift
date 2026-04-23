@@ -37,6 +37,9 @@ struct ContentView: View {
                                     }}.foregroundStyle(.white)
                                 .font(.custom("Baskerville", size: 36))
                         }
+                        Image("knife")
+                            .resizable()
+                            .frame(width: 400, height: 400)
                     }
                     
                 }
