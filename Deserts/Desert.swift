@@ -15,6 +15,18 @@ struct DesertView: View {
                 .resizable()
                 .frame(width: 3300, height: 3000)
             
+            HStack{
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Brookies") {
+                            Desert1()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
+                
+            }
         }
     }
 }
