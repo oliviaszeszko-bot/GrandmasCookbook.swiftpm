@@ -10,7 +10,11 @@ import SwiftUI
 struct DesertView: View {
     
     var body: some View {
-       
-
+        ZStack{
+            Image("bookpage")
+                .resizable()
+                .frame(width: 3300, height: 3000)
+            
+        }
     }
 }
