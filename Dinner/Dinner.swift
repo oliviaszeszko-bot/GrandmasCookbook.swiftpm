@@ -28,7 +28,7 @@ struct DinnerView: View {
                     .frame(width: 200, height: 200)
                     .foregroundStyle(Color.brown)
                     .overlay{
-                        NavigationLink("Tacos") {
+                        NavigationLink("Pasta") {
                             dinner1()
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 43))
