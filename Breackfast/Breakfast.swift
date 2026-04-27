@@ -10,52 +10,57 @@ import SwiftUI
 struct BreakfastView: View {
     
     var body: some View {
-        VStack{
-            Text("Breakfast")
-                .font(.custom("Baskerville", size: 135))
-                .padding()
-            HStack{
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Waffles") {
-                            breakfast2()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
+        ZStack{
+            Image("bookpage")
+                .resizable()
+                .frame(width: 3300, height: 3000)
+            VStack{
+                Text("Breakfast")
+                    .font(.custom("Baskerville", size: 135))
                     .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Pancakes") {
-                            breakfast4()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Shakshuka") {
-                            Breakfast1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Hash Browns") {
-                            Breakfast3()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
+                HStack{
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Waffles") {
+                                breakfast2()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Pancakes") {
+                                breakfast4()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Shakshuka") {
+                                Breakfast1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Hash Browns") {
+                                Breakfast3()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    
+                }
                 
             }
             
+            
         }
-        
-        
     }
 }
