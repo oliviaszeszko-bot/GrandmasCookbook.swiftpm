@@ -17,27 +17,28 @@ struct DesertView: View {
             VStack{
                 Text("Desert")
                     .font(.custom("Baskerville", size: 165))
-            
-            HStack{
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Brookies") {
-                            Desert1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Muffins") {
-                            desert2()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
                 
+                HStack{
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Brookies") {
+                                Desert1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Muffins") {
+                                desert2()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    
+                }
             }
         }
     }
