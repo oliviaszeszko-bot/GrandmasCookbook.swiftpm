@@ -10,7 +10,11 @@ import SwiftUI
 struct DinnerView: View {
     
     var body: some View {
-       
-
+        VStack{
+            Text("Dinner")
+                .font(.custom("Baskerville", size: 135))
+                .padding()
+            
+        }
     }
 }
