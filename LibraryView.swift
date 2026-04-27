@@ -64,7 +64,7 @@ struct LibraryView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Dessert") {
-                                DessertView()
+                                DesertView()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 43))
                         .padding()
