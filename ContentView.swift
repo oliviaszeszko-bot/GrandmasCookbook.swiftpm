@@ -19,23 +19,23 @@ struct ContentView: View {
                             .frame(width: 400, height: 400)
                         VStack{
                             RoundedRectangle(cornerRadius: 20)
-                                .frame(width: 230, height: 130)
+                                .frame(width: 300, height: 169)
                                 .foregroundStyle(Color.brown)
                                 .overlay{
                                     NavigationLink("Add a Recipe") {
                                         addrecipe()
                                     }}.foregroundStyle(.white)
-                                .font(.custom("Baskerville", size: 36))
+                                .font(.custom("Baskerville", size: 50))
                                 .padding()
                             
                             RoundedRectangle(cornerRadius: 20)
-                                .frame(width: 230, height: 130)
+                                .frame(width: 300, height: 169)
                                 .foregroundStyle(Color.brown)
                                 .overlay{
                                     NavigationLink("Go to Library") {
                                         LibraryView()
                                     }}.foregroundStyle(.white)
-                                .font(.custom("Baskerville", size: 36))
+                                .font(.custom("Baskerville", size: 50))
                         }
                         Image("knife")
                             .resizable()
