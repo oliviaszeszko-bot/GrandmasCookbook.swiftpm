@@ -10,7 +10,13 @@ import SwiftUI
 struct BreakfastView: View {
     
     var body: some View {
-       
-
+        VStack{
+            Text("Breakfast")
+                .font(.custom("Baskerville", size: 135))
+                .padding()
+           
+                
+            }
+        }
     }
-}
+
