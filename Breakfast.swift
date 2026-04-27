@@ -19,8 +19,8 @@ struct BreakfastView: View {
                     .frame(width: 200, height: 200)
                     .foregroundStyle(Color.brown)
                     .overlay{
-                        NavigationLink("Wafells") {
-                            BreakfastView()
+                        NavigationLink("Waffles") {
+                            breakfast2()
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 43))
                     .padding()
