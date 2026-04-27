@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DessertView: View {
+struct DesertView: View {
     
     var body: some View {
        

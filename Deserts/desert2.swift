@@ -1,13 +1,13 @@
 //
-//  snck1.swift
+//  deset2.swift
 //  GrandmasCookbook
 //
-//  Created by Zahra N. Babayeva on 4/27/26.
+//  Created by Olivia Szeszko on 4/27/26.
 //
 
 import SwiftUI
 
-struct Desert1: View {
+struct desert2: View {
     
     var body: some View {
        
