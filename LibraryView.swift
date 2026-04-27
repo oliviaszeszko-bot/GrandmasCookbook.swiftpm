@@ -17,7 +17,7 @@ struct LibraryView: View {
             
             VStack{
                 Text("Recipe Library")
-                    .font(.custom("Baskerville", size: 100))
+                    .font(.custom("Baskerville", size: 160))
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
