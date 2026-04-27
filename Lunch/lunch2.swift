@@ -1,13 +1,13 @@
 //
-//  GlutenFree.swift
+//  lunch2.swift
 //  GrandmasCookbook
 //
-//  Created by Olivia Szeszko on 4/23/26.
+//  Created by Olivia Szeszko on 4/27/26.
 //
 
 import SwiftUI
 
-struct GlutenFreeView: View {
+struct lunch2: View {
     
     var body: some View {
        

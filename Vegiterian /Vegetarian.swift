@@ -1,5 +1,5 @@
 //
-//  Lunch.swift
+//  Vegetarian.swift
 //  GrandmasCookbook
 //
 //  Created by Olivia Szeszko on 4/23/26.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LunchView: View {
+struct VegetarianView: View {
     
     var body: some View {
        
