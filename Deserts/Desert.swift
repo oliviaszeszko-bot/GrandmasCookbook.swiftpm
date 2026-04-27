@@ -14,6 +14,9 @@ struct DesertView: View {
             Image("bookpage")
                 .resizable()
                 .frame(width: 3300, height: 3000)
+            VStack{
+                Text("Desert")
+                    .font(.custom("Baskerville", size: 165))
             
             HStack{
                 RoundedRectangle(cornerRadius: 20)
