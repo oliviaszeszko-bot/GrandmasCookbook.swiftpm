@@ -14,7 +14,17 @@ struct DinnerView: View {
             Text("Dinner")
                 .font(.custom("Baskerville", size: 135))
                 .padding()
-            
+            HStack{
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 200)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Tacos") {
+                            dinner1()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 43))
+                    .padding()
+            }
         }
     }
 }
