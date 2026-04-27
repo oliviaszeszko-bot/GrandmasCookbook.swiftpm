@@ -14,6 +14,10 @@ struct DinnerView: View {
             Text("Dinner")
                 .font(.custom("Baskerville", size: 135))
                 .padding()
+            VStack{
+                Text("Dinner")
+                    .font(.custom("Baskerville", size: 165))
+                    .padding()
             HStack{
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: 200, height: 200)
