@@ -35,16 +35,25 @@ struct SnackView: View {
                             NavigationLink("Hummus") {
                                 dinner1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 57))
+                        .font(.custom("Baskerville", size: 47))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 200, height: 200)
                         .foregroundStyle(Color.brown)
                         .overlay{
-                            NavigationLink("") {
+                            NavigationLink("Ranch") {
                                 dinner1()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 47))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Tzatiki") {
+                                dinner1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 57))
                         .padding()
                 }
             }
