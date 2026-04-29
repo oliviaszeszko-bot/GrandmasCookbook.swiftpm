@@ -12,12 +12,9 @@ struct DinnerView: View {
     var body: some View {
         VStack{
             Text("Dinner")
-                .font(.custom("Baskerville", size: 135))
+                .font(.custom("Baskerville", size: 145))
                 .padding()
-            VStack{
-                Text("Dinner")
-                    .font(.custom("Baskerville", size: 165))
-                    .padding()
+          
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
                         .frame(width: 200, height: 200)
@@ -63,4 +60,3 @@ struct DinnerView: View {
             }
         }
     }
-}
