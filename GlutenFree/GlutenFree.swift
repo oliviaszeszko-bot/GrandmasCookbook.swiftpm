@@ -10,7 +10,16 @@ import SwiftUI
 struct GlutenFreeView: View {
     
     var body: some View {
-       
-
+        HStack{
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 200, height: 200)
+                .foregroundStyle(Color.brown)
+                .overlay{
+                    NavigationLink("Califlower and Bean Paella") {
+                        GF1()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 43))
+                .padding()
+        }
     }
 }
