@@ -18,6 +18,18 @@ struct DiabeticView: View {
                 Text("Diabetes")
                     .font(.custom("Baskerville", size: 145))
                     .padding()
+                HStack{
+                    
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Dark Chocolate PB Bites") {
+                                breakfast2()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                }
             }
         }
     }
