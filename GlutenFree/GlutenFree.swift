@@ -10,6 +10,13 @@ import SwiftUI
 struct GlutenFreeView: View {
     
     var body: some View {
+        Image("bookpage")
+            .resizable()
+            .frame(width: 3300, height: 3000)
+        VStack{
+            Text("Gluten Free")
+                .font(.custom("Baskerville", size: 145))
+                .padding()
         HStack{
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: 200, height: 200)

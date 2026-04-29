@@ -15,7 +15,7 @@ struct DiabeticView: View {
                 .resizable()
                 .frame(width: 3300, height: 3000)
             VStack{
-                Text("Gluten Free")
+                Text("Diabetic")
                     .font(.custom("Baskerville", size: 145))
                     .padding()
                 HStack{
