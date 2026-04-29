@@ -10,7 +10,11 @@ import SwiftUI
 struct SnackView: View {
     
     var body: some View {
-       
-
+        
+        VStack{
+            Text("Snack")
+                .font(.custom("Baskerville", size: 145))
+                .padding()
+        }
     }
 }
