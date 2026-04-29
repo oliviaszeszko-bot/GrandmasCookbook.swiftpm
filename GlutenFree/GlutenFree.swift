@@ -38,6 +38,15 @@ struct GlutenFreeView: View {
                     }}.foregroundStyle(.white)
                 .font(.custom("Baskerville", size: 43))
                 .padding()
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 200, height: 200)
+                .foregroundStyle(Color.brown)
+                .overlay{
+                    NavigationLink("Roasted Lemon Salmon") {
+                        GF4()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 43))
+                .padding()
         }
     }
 }
