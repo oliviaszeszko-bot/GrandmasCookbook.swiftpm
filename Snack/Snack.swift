@@ -24,7 +24,7 @@ struct SnackView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Salsa") {
-                                dinner1()
+                                snack1()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 57))
                         .padding()
@@ -33,7 +33,7 @@ struct SnackView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Hummus") {
-                                dinner1()
+                                snack2()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 47))
                         .padding()
@@ -42,7 +42,7 @@ struct SnackView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Ranch") {
-                                dinner1()
+                                snack3()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 47))
                         .padding()
@@ -51,7 +51,7 @@ struct SnackView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Tzatiki") {
-                                dinner1()
+                                snack4()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 57))
                         .padding()
