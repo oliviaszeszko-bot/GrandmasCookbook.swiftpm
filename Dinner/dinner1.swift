@@ -35,9 +35,13 @@ struct dinner1: View {
                 .overlay{
                     NavigationLink("Meetball Past") {
                         dinner3()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 43))
+                .padding()
+
                         
                     }
                 }
         }
-    }
-}
+    
+
