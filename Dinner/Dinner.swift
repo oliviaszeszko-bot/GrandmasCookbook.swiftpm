@@ -18,47 +18,48 @@ struct DinnerView: View {
                 Text("Dinner")
                     .font(.custom("Baskerville", size: 165))
                     .padding()
-            HStack{
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Tacos") {
-                            dinner1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Pasta") {
-                            dinner1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Crab Cakes") {
-                            dinner1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 200, height: 200)
-                    .foregroundStyle(Color.brown)
-                    .overlay{
-                        NavigationLink("Black bean Tostadas") {
-                            dinner1()
-                        }}.foregroundStyle(.white)
-                    .font(.custom("Baskerville", size: 43))
-                    .padding()
-
-
-
-                
+                HStack{
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Tacos") {
+                                dinner1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Pasta") {
+                                dinner1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Crab Cakes") {
+                                dinner1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 200, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Black bean Tostadas") {
+                                dinner1()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 43))
+                        .padding()
+                    
+                    
+                    
+                    
+                }
             }
         }
     }
