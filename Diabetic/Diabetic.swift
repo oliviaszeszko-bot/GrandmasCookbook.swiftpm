@@ -46,7 +46,15 @@ struct DiabeticView: View {
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 33))
                         .padding()
-                    
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 205, height: 200)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Chicken Shawarma Bowl") {
+                                sugar4()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 40))
+                        .padding()
                 }
             }
         }
