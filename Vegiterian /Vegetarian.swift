@@ -29,6 +29,15 @@ struct VegetarianView: View {
                     }}.foregroundStyle(.white)
                 .font(.custom("Baskerville", size: 57))
                 .padding()
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 200, height: 200)
+                .foregroundStyle(Color.brown)
+                .overlay{
+                    NavigationLink("Roasted Califlower Bowls") {
+                        Vegetarian3()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 57))
+                .padding()
         }
     }
 }
