@@ -43,7 +43,7 @@ struct LunchView: View {
                         .frame(width: 200, height: 200)
                         .foregroundStyle(Color.brown)
                         .overlay{
-                            NavigationLink("Tofu and Vegetable Wraps") {
+                            NavigationLink("Pasta Salad") {
                                 lunch3()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 43))

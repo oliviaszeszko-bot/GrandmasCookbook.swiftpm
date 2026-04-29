@@ -10,7 +10,16 @@ import SwiftUI
 struct VegetarianView: View {
     
     var body: some View {
-       
-
+        HStack{
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 200, height: 200)
+                .foregroundStyle(Color.brown)
+                .overlay{
+                    NavigationLink("Tofu and Vegetable Wraps") {
+                        dinner1()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 57))
+                .padding()
+        }
     }
 }
