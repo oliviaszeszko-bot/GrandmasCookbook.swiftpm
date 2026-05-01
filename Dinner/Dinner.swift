@@ -21,40 +21,40 @@ struct DinnerView: View {
                 
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Tacos") {
                                 dinner1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Pasta") {
                                 dinner1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Crab Cakes") {
                                 dinner1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Black bean Tostadas") {
                                 dinner1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 50))
                         .padding()
                     
                     

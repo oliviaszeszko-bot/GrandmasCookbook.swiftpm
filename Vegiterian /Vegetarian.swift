@@ -20,7 +20,7 @@ struct VegetarianView: View {
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Tofu and Vegetable Wraps") {
@@ -29,7 +29,7 @@ struct VegetarianView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Red Lentil Soup") {
@@ -38,7 +38,7 @@ struct VegetarianView: View {
                         .font(.custom("Baskerville", size: 50))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Roasted Califlower Bowls") {
@@ -47,7 +47,7 @@ struct VegetarianView: View {
                         .font(.custom("Baskerville", size: 45))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Greek Baked Orzo") {
