@@ -47,6 +47,15 @@ struct addrecipe: View {
                         .frame(width: 600, height: 40)
                         .border(Color.black, width: 3)
                 }
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 129)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Next") {
+                            addRecipe2()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 63))
+                    .padding()
             }
         }
     }
