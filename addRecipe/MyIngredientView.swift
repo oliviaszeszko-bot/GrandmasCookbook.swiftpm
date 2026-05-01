@@ -11,12 +11,14 @@ struct MyIngredientView: View {
     let currentItem: Ingreident
     var body: some View {
         HStack{
-            Text(currentItem.ingredient)
-                .font(Font.largeTitle)
-                .foregroundStyle(.black)
             Text("\(currentItem.quantity)")
-            font(Font.largeTitle)
+                .font(.largeTitle)
             .foregroundStyle(.black)
+            Text(currentItem.ingredient)
+                .font(.largeTitle)
+                .foregroundStyle(.black)
+            
         }
     }
 }
+

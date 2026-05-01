@@ -8,17 +8,28 @@
 import SwiftUI
 
 struct addRecipe2: View {
-    
+    @State var recipe: [Ingreident] = []
     var body: some View {
         ZStack{
             Image("bookpage")
                 .resizable()
-                .frame(width: 3300, height: 3000)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
             VStack{
                 Text("Ingredients")
                     .font(.custom("Baskerville", size: 125))
                     .padding()
+                AddItemView(recipe: $recipe)
+                List() {
+                    ForEach(recipe, id: \.self) { currentItem in
+                        MyIngredientView(currentItem: currentItem)
+                    }
+                    
+                }
+                .scrollContentBackground(.hidden)
             }
-        }
+        }.ignoresSafeArea()
     }
 }
+
+
