@@ -20,7 +20,15 @@ struct AddItemView: View {
                 .textFieldStyle(.roundedBorder)
                 .frame(width: 600, height: 40)
                 .border(Color.black, width: 3)
-                
+            Button{
+                let newIngredient = Ingreident(ingredient: enteredIngredient, quantity: enteredQuantity)
+                recipe.append(newIngredient)
+                enteredIngredient = ""
+                enteredQuantity = nil
+            } label: {
+                Image(systemName: "plus.circle")
+                    .foregroundStyle(.black)
+            }
 
         }
     }
