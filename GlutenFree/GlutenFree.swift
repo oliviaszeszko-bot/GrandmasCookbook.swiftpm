@@ -20,7 +20,7 @@ struct GlutenFreeView: View {
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Califlower and Bean Paella") {
@@ -29,7 +29,7 @@ struct GlutenFreeView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Shrimp Tacos") {
@@ -38,7 +38,7 @@ struct GlutenFreeView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Corn Tortillas") {
@@ -47,7 +47,7 @@ struct GlutenFreeView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Roasted Lemon Salmon") {

@@ -16,44 +16,44 @@ struct BreakfastView: View {
                 .frame(width: 3300, height: 3000)
             VStack{
                 Text("Breakfast")
-                    .font(.custom("Baskerville", size: 165))
+                    .font(.custom("Baskerville", size: 200))
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Waffles") {
                                 breakfast2()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Pancakes") {
                                 breakfast4()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Shakshuka") {
                                 Breakfast1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Hash Browns") {
                                 Breakfast3()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     
                 }

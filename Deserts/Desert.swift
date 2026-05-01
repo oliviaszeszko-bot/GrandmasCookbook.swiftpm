@@ -16,44 +16,43 @@ struct DesertView: View {
                 .frame(width: 3300, height: 3000)
             VStack{
                 Text("Desert")
-                    .font(.custom("Baskerville", size: 165))
-                
+                    .font(.custom("Baskerville", size: 200))
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Brookies") {
                                 Desert1()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Muffins") {
                                 desert2()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Banana Bread") {
                                 Desert3()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Creme Brulee") {
                                 Desert3()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 55))
                         .padding()
                     
                 }

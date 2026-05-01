@@ -22,7 +22,7 @@ struct LunchView: View {
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Club Sandwich") {
@@ -31,7 +31,7 @@ struct LunchView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Chicken Caeser Salad") {
@@ -40,7 +40,7 @@ struct LunchView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Pasta Salad") {
@@ -49,7 +49,7 @@ struct LunchView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Backyard Burgers") {

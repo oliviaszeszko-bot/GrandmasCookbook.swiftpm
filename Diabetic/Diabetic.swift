@@ -20,7 +20,7 @@ struct DiabeticView: View {
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Creamy Garlic Tuscan Chicken") {
@@ -29,7 +29,7 @@ struct DiabeticView: View {
                         .font(.custom("Baskerville", size: 40))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Dark Chocolate PB Bites") {
@@ -38,7 +38,7 @@ struct DiabeticView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 205, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Mediterranean Stuffed Peppers") {
@@ -47,7 +47,7 @@ struct DiabeticView: View {
                         .font(.custom("Baskerville", size: 33))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 205, height: 200)
+                        .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Chicken Shawarma Bowl") {
