@@ -24,24 +24,6 @@ struct BreakfastView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Waffles") {
-                                breakfast2()
-                            }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 55))
-                        .padding()
-                    RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 250, height: 250)
-                        .foregroundStyle(Color.brown)
-                        .overlay{
-                            NavigationLink("Pancakes") {
-                                breakfast4()
-                            }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 55))
-                        .padding()
-                    RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 250, height: 250)
-                        .foregroundStyle(Color.brown)
-                        .overlay{
-                            NavigationLink("Shakshuka") {
                                 Breakfast1()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 55))
@@ -50,8 +32,26 @@ struct BreakfastView: View {
                         .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
-                            NavigationLink("Hash Browns") {
+                            NavigationLink("Pancakes") {
+                                breakfast2()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 55))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 250, height: 250)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Shakshuka") {
                                 Breakfast3()
+                            }}.foregroundStyle(.white)
+                        .font(.custom("Baskerville", size: 55))
+                        .padding()
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(width: 250, height: 250)
+                        .foregroundStyle(Color.brown)
+                        .overlay{
+                            NavigationLink("Hash Browns") {
+                                breakfast4()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 55))
                         .padding()
