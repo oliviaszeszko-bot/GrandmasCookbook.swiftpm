@@ -24,9 +24,17 @@ struct addRecipe2: View {
                     ForEach(recipe, id: \.self) { currentItem in
                         MyIngredientView(currentItem: currentItem)
                     }
-                    
                 }
                 .scrollContentBackground(.hidden)
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 200, height: 129)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("Next") {
+                            addRecipe3()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 63))
+                    .padding()
             }
         }.ignoresSafeArea()
     }
