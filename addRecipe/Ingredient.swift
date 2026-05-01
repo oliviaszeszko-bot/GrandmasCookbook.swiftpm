@@ -7,5 +7,5 @@
 
 struct Ingreident : Hashable {
     var ingredient: String
-    var quantity: Int?
+    var quantity: String
 }
