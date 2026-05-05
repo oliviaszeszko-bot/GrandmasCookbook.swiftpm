@@ -11,7 +11,7 @@ struct ContentView: View {
                 VStack {
                     
                     Text ("Grandmas Cookbook")
-                        .font(.custom("Baskerville", size: 110))
+                        .font(.custom("Baskerville", size: 113))
                         .padding()
                     HStack{
                         Image("spatula")

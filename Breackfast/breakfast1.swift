@@ -40,8 +40,6 @@ struct Breakfast1: View {
         }
         .frame(maxWidth: .infinity)
     }
-//        .background(Color.white)
-//        .ignoresSafeArea()
    }
 #Preview(traits: .landscapeLeft) {
     ContentView()
