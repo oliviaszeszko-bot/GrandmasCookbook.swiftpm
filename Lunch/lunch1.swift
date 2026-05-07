@@ -10,7 +10,7 @@ import SwiftUI
 struct lunch1: View {
     
     var body: some View {
-        var body: some View {
+       
             HStack (spacing: 305){
                 VStack(alignment: .leading) {
                     Button(action: {
@@ -51,4 +51,4 @@ struct lunch1: View {
     #Preview(traits: .landscapeLeft) {
         ContentView()
     }
-}
+
