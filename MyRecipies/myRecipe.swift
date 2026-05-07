@@ -10,6 +10,11 @@ import SwiftUI
 struct myRecipe: View {
     
     var body: some View {
+        ZStack{
+            Image("bookpage")
+                .resizable()
+                .frame(width: 3300, height: 3000)
+            
         VStack{
             Text("My Recipes")
                 .font(.custom("Baskerville", size: 190))
@@ -51,6 +56,7 @@ struct myRecipe: View {
                         }}.foregroundStyle(.white)
                     .font(.custom("Baskerville", size: 43))
                     .padding()
+            }
             }
         }
     }
