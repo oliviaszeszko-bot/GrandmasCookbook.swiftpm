@@ -17,11 +17,11 @@ struct LibraryView: View {
             
             VStack{
                 Text("Recipe Library")
-                    .font(.custom("Baskerville", size: 160))
+                    .font(.custom("Baskerville", size: 120))
                     .padding()
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Breakfast") {
@@ -30,7 +30,7 @@ struct LibraryView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Lunch") {
@@ -39,7 +39,7 @@ struct LibraryView: View {
                         .font(.custom("Baskerville", size: 50))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Dinner") {
@@ -49,7 +49,7 @@ struct LibraryView: View {
                                 .padding()
                         }
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Dips") {
@@ -60,7 +60,7 @@ struct LibraryView: View {
                 }
                 HStack{
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Dessert") {
@@ -69,7 +69,7 @@ struct LibraryView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Gluten Free") {
@@ -78,16 +78,16 @@ struct LibraryView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Vegetarian") {
                                 VegetarianView()
                             }}.foregroundStyle(.white)
-                        .font(.custom("Baskerville", size: 43))
+                        .font(.custom("Baskerville", size: 39))
                         .padding()
                     RoundedRectangle(cornerRadius: 20)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 180, height: 180)
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Diabetes") {
@@ -96,6 +96,15 @@ struct LibraryView: View {
                         .font(.custom("Baskerville", size: 43))
                         .padding()
                 }
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width: 300, height: 120)
+                    .foregroundStyle(Color.brown)
+                    .overlay{
+                        NavigationLink("My Recipes") {
+                            myRecipe()
+                        }}.foregroundStyle(.white)
+                    .font(.custom("Baskerville", size: 47))
+                    .padding()
             }
         }
        
