@@ -38,6 +38,15 @@ struct myRecipe: View {
                     }}.foregroundStyle(.white)
                 .font(.custom("Baskerville", size: 43))
                 .padding()
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 250, height: 250)
+                .foregroundStyle(Color.brown)
+                .overlay{
+                    NavigationLink("My Recipe 4") {
+                        myRecipe4()
+                    }}.foregroundStyle(.white)
+                .font(.custom("Baskerville", size: 43))
+                .padding()
         }
     }
 }
