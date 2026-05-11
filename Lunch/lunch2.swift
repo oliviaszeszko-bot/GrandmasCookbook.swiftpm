@@ -52,7 +52,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("6 slices white or whole wheat bread, toasted")
+                                Text("3 tablespoons olive oil")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -67,7 +67,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("1/2 cup mayonnaise")
+                                Text("2 tablespoons freshly squeezed lemon juice")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -82,7 +82,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("2 tablespoons Dijon mustard")
+                                Text("2 teaspoons lemon zest")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -97,7 +97,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor3)
                                 }
-                                Text("4 thin slices of chicken breast")
+                                Text("1 clove garlic, grated")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -112,7 +112,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor4)
                                 }
-                                Text("8 lettue leaves")
+                                Text("salt and pepper to taste")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -127,7 +127,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor5)
                                 }
-                                Text("8 crisp bacon slices")
+                                Text("1 1/2 pounds boneless chicken breast")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -142,7 +142,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor6)
                                 }
-                                Text("1 tomato, thinly sliced")
+                                Text("2 heads romaine, chopped roughly")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -157,7 +157,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor7)
                                 }
-                                Text("2 slices of red onion")
+                                Text("1/4 cup freshly grated Parmesan")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -172,7 +172,7 @@ struct lunch2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor8)
                                 }
-                                Text("4 basil leaves")
+                                Text("your favorite caeser dressing")
                                     .font(.custom("Arial", size: 25))
                             }
                         }
@@ -195,7 +195,7 @@ struct lunch2: View {
         }
     }
     #Preview(traits: .landscapeLeft) {
-        lunch1()
+        lunch2()
     }
 
 
