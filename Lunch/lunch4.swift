@@ -48,6 +48,6 @@ struct lunch4: View {
         }
     }
     #Preview(traits: .landscapeLeft) {
-        ContentView()
+        lunch4()
     }
 

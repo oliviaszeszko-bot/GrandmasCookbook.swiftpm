@@ -195,7 +195,7 @@ struct lunch2: View {
         }
     }
     #Preview(traits: .landscapeLeft) {
-        lunch1()
+        lunch2()
     }
 
 
