@@ -31,7 +31,7 @@ struct DesertView: View {
                         .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
-                            NavigationLink("Muffins") {
+                            NavigationLink("Bannana Muffins") {
                                 desert2()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 55))
@@ -40,7 +40,7 @@ struct DesertView: View {
                         .frame(width: 250, height: 250)
                         .foregroundStyle(Color.brown)
                         .overlay{
-                            NavigationLink("Banana Bread") {
+                            NavigationLink("Pavlova") {
                                 Desert3()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 55))
@@ -50,7 +50,7 @@ struct DesertView: View {
                         .foregroundStyle(Color.brown)
                         .overlay{
                             NavigationLink("Creme Brulee") {
-                                Desert3()
+                                desert4()
                             }}.foregroundStyle(.white)
                         .font(.custom("Baskerville", size: 55))
                         .padding()
