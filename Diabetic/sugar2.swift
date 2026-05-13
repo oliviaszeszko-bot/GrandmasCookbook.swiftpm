@@ -13,10 +13,7 @@ struct sugar2: View {
     @State var buttonColor2: Color = .gray
     @State var buttonColor3: Color = .gray
     @State var buttonColor4: Color = .gray
-    @State var buttonColor5: Color = .gray
-    @State var buttonColor6: Color = .gray
-    @State var buttonColor7: Color = .gray
-    @State var buttonColor8: Color = .gray
+    
     var body: some View {
        
         HStack {
@@ -28,7 +25,7 @@ struct sugar2: View {
                             .font(.title)
                             .padding()
                     }
-                    Text("Tacos")
+                    Text("dark chocolate PB bites")
                         .font(.custom("Georgia", size: 58))
                         .padding(.horizontal)
                     
@@ -51,7 +48,7 @@ struct sugar2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("1 lb ground beef")
+                                Text("3 cups Oats & Honey Granola")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -66,7 +63,7 @@ struct sugar2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("Tomato paste")
+                                Text("1 cup creamy peanut butter")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -81,7 +78,7 @@ struct sugar2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("1/2 teaspon salt")
+                                Text("3 tablespoons honey")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -96,7 +93,7 @@ struct sugar2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor3)
                                 }
-                                Text("1/2 teaspoon ground black pepper")
+                                Text("1 cup dark chocolate chips")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -111,67 +108,7 @@ struct sugar2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor4)
                                 }
-                                Text("1/2 teaspoon  salt")
-                                    .font(.custom("Arial", size: 25))
-                            }
-                            HStack{
-                                Button {
-                                    if buttonColor5 == .gray {
-                                        self.buttonColor5 = .green
-                                    } else if buttonColor5 == .green {
-                                        self.buttonColor5 = .gray
-                                    }
-                                } label: {
-                                    Image(systemName: "checkmark.circle")
-                                        .font(.largeTitle)
-                                        .foregroundStyle(buttonColor5)
-                                }
-                                Text("1/2 oninon powder")
-                                    .font(.custom("Arial", size: 25))
-                            }
-                            HStack{
-                                Button {
-                                    if buttonColor6 == .gray {
-                                        self.buttonColor6 = .green
-                                    } else if buttonColor6 == .green {
-                                        self.buttonColor6 = .gray
-                                    }
-                                } label: {
-                                    Image(systemName: "checkmark.circle")
-                                        .font(.largeTitle)
-                                        .foregroundStyle(buttonColor6)
-                                }
-                                Text("1/2 teaspoon cumin and paprika ")
-                                    .font(.custom("Arial", size: 25))
-                            }
-                            HStack{
-                                Button {
-                                    if buttonColor7 == .gray {
-                                        self.buttonColor7 = .green
-                                    } else if buttonColor7 == .green {
-                                        self.buttonColor7 = .gray
-                                    }
-                                } label: {
-                                    Image(systemName: "checkmark.circle")
-                                        .font(.largeTitle)
-                                        .foregroundStyle(buttonColor7)
-                                }
-                                Text("lettuce, tomatoes, onion, and pickles (suggested toppings)")
-                                    .font(.custom("Arial", size: 25))
-                            }
-                            HStack{
-                                Button {
-                                    if buttonColor8 == .gray {
-                                        self.buttonColor8 = .green
-                                    } else if buttonColor8 == .green {
-                                        self.buttonColor8 = .gray
-                                    }
-                                } label: {
-                                    Image(systemName: "checkmark.circle")
-                                        .font(.largeTitle)
-                                        .foregroundStyle(buttonColor8)
-                                }
-                                Text("ketchup, mayonnaise, and mustard (suggested sauces)")
+                                Text("1 teaspoon coconut oil")
                                     .font(.custom("Arial", size: 25))
                             }
                         }
