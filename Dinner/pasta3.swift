@@ -28,7 +28,7 @@ struct pasta3: View {
                             .font(.title)
                             .padding()
                     }
-                    Text("Backyard Burgers")
+                    Text("Lasagna")
                         .font(.custom("Georgia", size: 58))
                         .padding(.horizontal)
                     
@@ -51,7 +51,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("1 lb ground beef")
+                                Text("2 cup's of flour")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -66,7 +66,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("1 egg")
+                                Text("3 egg")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -81,7 +81,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("2 tablespoons olive oil")
+                                Text("4 tablespoons olive oil")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -96,7 +96,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor3)
                                 }
-                                Text("1/2 teaspoon ground black pepper")
+                                Text("1 pound ground beef")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -126,7 +126,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor5)
                                 }
-                                Text("4 brioche buns, toasted")
+                                Text("1/3 cup ricotta")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -141,7 +141,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor6)
                                 }
-                                Text("4 slices cheesse of choice")
+                                Text("Tomato sauce")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -156,7 +156,7 @@ struct pasta3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor7)
                                 }
-                                Text("lettuce, tomatoes, onion, and pickles (suggested toppings)")
+                                Text("2 cups of melting cheese")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{

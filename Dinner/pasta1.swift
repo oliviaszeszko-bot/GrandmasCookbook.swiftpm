@@ -66,7 +66,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("1 egg")
+                                Text("4 egg's")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -81,7 +81,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("2 tablespoons olive oil")
+                                Text("2 cups of flour")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -126,7 +126,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor5)
                                 }
-                                Text("4 brioche buns, toasted")
+                                Text("tomato paste or tomato sauce")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -141,7 +141,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor6)
                                 }
-                                Text("4 slices cheesse of choice")
+                                Text("1 cup onion, finely chopped")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -156,7 +156,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor7)
                                 }
-                                Text("lettuce, tomatoes, onion, and pickles (suggested toppings)")
+                                Text("one cup olive oil")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -171,7 +171,7 @@ struct pasta1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor8)
                                 }
-                                Text("ketchup, mayonnaise, and mustard (suggested sauces)")
+                                Text("1 tablespoon garlic")
                                     .font(.custom("Arial", size: 25))
                             }
                         }

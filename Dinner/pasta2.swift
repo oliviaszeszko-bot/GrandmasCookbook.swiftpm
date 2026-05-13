@@ -51,7 +51,7 @@ struct pasta2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("1 lb ground beef")
+                                Text("4 egg's")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -66,7 +66,7 @@ struct pasta2: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("1 egg")
+                                Text("1 cup flour")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
