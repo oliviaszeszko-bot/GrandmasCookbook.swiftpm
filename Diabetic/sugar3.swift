@@ -28,7 +28,7 @@ struct sugar3: View {
                             .font(.title)
                             .padding()
                     }
-                    Text("Tacos")
+                    Text("Mediterranean Stuffed Peppers")
                         .font(.custom("Georgia", size: 58))
                         .padding(.horizontal)
                     
@@ -51,7 +51,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("1 lb ground beef")
+                                Text("Virgin oil")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -66,7 +66,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("Tomato paste")
+                                Text("1 onion")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -81,7 +81,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("1/2 teaspon salt")
+                                Text("1 cup chickpeas")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -96,7 +96,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor3)
                                 }
-                                Text("1/2 teaspoon ground black pepper")
+                                Text("1 cup rice")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -111,7 +111,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor4)
                                 }
-                                Text("1/2 teaspoon  salt")
+                                Text("1 small bunch of parsley")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -126,7 +126,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor5)
                                 }
-                                Text("1/2 oninon powder")
+                                Text("Tomato paste")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -141,7 +141,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor6)
                                 }
-                                Text("1/2 teaspoon cumin and paprika ")
+                                Text("6 large bell pepers")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -156,22 +156,7 @@ struct sugar3: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor7)
                                 }
-                                Text("lettuce, tomatoes, onion, and pickles (suggested toppings)")
-                                    .font(.custom("Arial", size: 25))
-                            }
-                            HStack{
-                                Button {
-                                    if buttonColor8 == .gray {
-                                        self.buttonColor8 = .green
-                                    } else if buttonColor8 == .green {
-                                        self.buttonColor8 = .gray
-                                    }
-                                } label: {
-                                    Image(systemName: "checkmark.circle")
-                                        .font(.largeTitle)
-                                        .foregroundStyle(buttonColor8)
-                                }
-                                Text("ketchup, mayonnaise, and mustard (suggested sauces)")
+                                Text("Broth")
                                     .font(.custom("Arial", size: 25))
                             }
                         }
