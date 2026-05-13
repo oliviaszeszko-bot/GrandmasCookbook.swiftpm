@@ -28,7 +28,10 @@ struct sugar1: View {
                             .font(.title)
                             .padding()
                     }
-                    Text("Tacos")
+                    Text("Creamy garlic")
+                        .font(.custom("Georgia", size: 58))
+                        .padding(.horizontal)
+                    Text("Tuscan Chicken")
                         .font(.custom("Georgia", size: 58))
                         .padding(.horizontal)
                     
@@ -51,7 +54,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor)
                                 }
-                                Text("1 lb ground beef")
+                                Text("2 tablespoons olive oil")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -66,7 +69,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor1)
                                 }
-                                Text("Tomato paste")
+                                Text("1 1/2 pounds chicken breast")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -81,7 +84,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor2)
                                 }
-                                Text("1/2 teaspon salt")
+                                Text("1 cup heavy cream")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -96,7 +99,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor3)
                                 }
-                                Text("1/2 teaspoon ground black pepper")
+                                Text("1/2 cup chicken broth")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -111,7 +114,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor4)
                                 }
-                                Text("1/2 teaspoon  salt")
+                                Text("1 teaspoon garlic powder")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -126,7 +129,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor5)
                                 }
-                                Text("1/2 oninon powder")
+                                Text("1 teaspoon italian seasoning")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -141,7 +144,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor6)
                                 }
-                                Text("1/2 teaspoon cumin and paprika ")
+                                Text("1/2 cup grated Parmesan cheese")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -156,7 +159,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor7)
                                 }
-                                Text("lettuce, tomatoes, onion, and pickles (suggested toppings)")
+                                Text("1 cup chopped spinach")
                                     .font(.custom("Arial", size: 25))
                             }
                             HStack{
@@ -171,7 +174,7 @@ struct sugar1: View {
                                         .font(.largeTitle)
                                         .foregroundStyle(buttonColor8)
                                 }
-                                Text("ketchup, mayonnaise, and mustard (suggested sauces)")
+                                Text("1/2 cup drained julienned sundried tomatoes")
                                     .font(.custom("Arial", size: 25))
                             }
                         }
