@@ -11,6 +11,14 @@ struct snack2: View {
     @State var buttonColor6: Color = .gray
     @State var buttonColor7: Color = .gray
     @State var buttonColor8: Color = .gray
+    @State var buttonColor9: Color = .gray
+    @State var buttonColor10: Color = .gray
+    @State var buttonColor11: Color = .gray
+    @State var buttonColor12: Color = .gray
+    @State var buttonColor13: Color = .gray
+    @State var buttonColor14: Color = .gray
+    @State var buttonColor15: Color = .gray
+
     var body: some View {
         
         HStack {
@@ -46,7 +54,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor)
                             }
                             Text("Mushy Chickpeas")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -61,7 +69,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor1)
                             }
                             Text("Tahini ")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -76,7 +84,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor2)
                             }
                             Text("Ice-Cold water")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -91,7 +99,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor3)
                             }
                             Text("Squeezed lemon juice")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -106,7 +114,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor4)
                             }
                             Text("Garlic")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -121,7 +129,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor5)
                             }
                             Text("Olive oil")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -136,7 +144,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor6)
                             }
                             Text("Ground cumin")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -151,7 +159,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor7)
                             }
                             Text("Sugar")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                         HStack{
                             Button {
@@ -166,7 +174,7 @@ struct snack2: View {
                                     .foregroundStyle(buttonColor8)
                             }
                             Text("Salt")
-                                .font(.custom("Arial", size: 25))
+                                .font(.custom("Arial", size: 28))
                         }
                     }
                 }
@@ -182,105 +190,105 @@ struct snack2: View {
                     .font(.custom("Georgia", size: 43))
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor9 == .gray {
+                            self.buttonColor9 = .green
+                        } else if buttonColor9 == .green {
+                            self.buttonColor9 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor9)
                     }
                     Text("Place the chickpeas in a medium saucepan and add the baking soda.")
                         .font(.custom("Arial", size: 25))
                 }
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor10 == .gray {
+                            self.buttonColor10 = .green
+                        } else if buttonColor10 == .green {
+                            self.buttonColor10 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor10)
                     }
                     Text("Cover the chickpeas by several inches of water, then bring the mixture to a boil over high heat. Continue boiling, reducing heat if necessary to prevent overflow, for about 20 minutes, or until the chickpeas look bloated, their skins are falling off, and they’re quite soft.")
                         .font(.custom("Arial", size: 25))
                 }
                     HStack{
                         Button {
-                            if buttonColor8 == .gray {
-                                self.buttonColor8 = .green
-                            } else if buttonColor8 == .green {
-                                self.buttonColor8 = .gray
+                            if buttonColor11 == .gray {
+                                self.buttonColor11 = .green
+                            } else if buttonColor11 == .green {
+                                self.buttonColor11 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor8)
+                                .foregroundStyle(buttonColor11)
                         }
                         Text("In a fine-mesh strainer, drain the chickpeas and run cool water over them for about 30 seconds. Set aside (no need to peel the chickpeas for this recipe!).")
                             .font(.custom("Arial", size: 25))
                     }
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor12 == .gray {
+                            self.buttonColor12 = .green
+                        } else if buttonColor12 == .green {
+                            self.buttonColor12 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor12)
                     }
                     Text("Meanwhile, in a food processor or high-powered blender, combine the lemon juice, garlic and salt. Process until the garlic is very finely chopped, then let the mixture rest so the garlic flavor can mellow, ideally 10 minutes or longer.")
                         .font(.custom("Arial", size: 25))
                 }
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor13 == .gray {
+                            self.buttonColor13 = .green
+                        } else if buttonColor13 == .green {
+                            self.buttonColor13 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor13)
                     }
                     Text("Add the tahini to the food processor and blend until the mixture is thick and creamy, stopping to scrape down any tahini stuck to the sides and bottom of the processor as necessary.")
                         .font(.custom("Arial", size: 25))
                 }
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor14 == .gray {
+                            self.buttonColor14 = .green
+                        } else if buttonColor14 == .green {
+                            self.buttonColor14 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor14)
                     }
                     Text("While running the food processor, drizzle in 2 tablespoons ice water. Scrape down the food processor, and blend until the mixture is ultra smooth, pale and creamy. (If your tahini was extra-thick to begin with, you might need to add 1 to 2 tablespoons more ice water.)")
                         .font(.custom("Arial", size: 25))
                 }
                 HStack{
                     Button {
-                        if buttonColor8 == .gray {
-                            self.buttonColor8 = .green
-                        } else if buttonColor8 == .green {
-                            self.buttonColor8 = .gray
+                        if buttonColor15 == .gray {
+                            self.buttonColor15 = .green
+                        } else if buttonColor15 == .green {
+                            self.buttonColor15 = .gray
                         }
                     } label: {
                         Image(systemName: "checkmark.circle")
                             .font(.largeTitle)
-                            .foregroundStyle(buttonColor8)
+                            .foregroundStyle(buttonColor15)
                     }
                     Text("Add the cumin and the drained, over-cooked chickpeas to the food processor. While blending, drizzle in the olive oil. Blend until the mixture is super smooth, scraping down the sides of the processor as necessary, about 2 minutes. Add more ice water by the tablespoon if necessary to achieve a super creamy texture.")
                         .font(.custom("Arial", size: 25))

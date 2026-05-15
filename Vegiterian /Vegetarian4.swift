@@ -23,6 +23,13 @@ struct Vegetarian4: View {
     @State var buttonColor12: Color = .gray
     @State var buttonColor13: Color = .gray
     @State var buttonColor14: Color = .gray
+    @State var buttonColor15: Color = .gray
+    @State var buttonColor16: Color = .gray
+    @State var buttonColor17: Color = .gray
+    @State var buttonColor18: Color = .gray
+    @State var buttonColor19: Color = .gray
+    @State var buttonColor20: Color = .gray
+
     var body: some View {
        
         HStack {
@@ -267,92 +274,94 @@ struct Vegetarian4: View {
                 VStack {
                     Text("Instructions")
                         .font(.custom("Georgia", size: 43))
+                        .padding(.horizontal)
+
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor15 == .gray {
+                                self.buttonColor15 = .green
+                            } else if buttonColor15 == .green {
+                                self.buttonColor15 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor15)
                         }
                         Text("Preheat the oven to 400 deegres.                                                  ")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor16 == .gray {
+                                self.buttonColor16 = .green
+                            } else if buttonColor16 == .green {
+                                self.buttonColor16 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor16)
                         }
                         Text("In a large oven-safe skillet, heat the oil over medium heat.            Add the onin for saute for 5 minutes or until soft.   ")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor17 == .gray {
+                                self.buttonColor17 = .green
+                            } else if buttonColor17 == .green {
+                                self.buttonColor17 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor17)
                         }
                         Text("Add the garlic, red pepper, kale, oregano, red pepper flakes, and salt. Saute for 5 minutes or until the kale is wilted.")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor18 == .gray {
+                                self.buttonColor18 = .green
+                            } else if buttonColor18 == .green {
+                                self.buttonColor18 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor18)
                         }
                         Text("Add the tomato paste. Saute for 1-2 minutes.                                ")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor19 == .gray {
+                                self.buttonColor19 = .green
+                            } else if buttonColor19 == .green {
+                                self.buttonColor19 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor19)
                         }
                         Text("Add the orzo, canned tomatoes, chicken or chickpeas, and broth. Bring to a simmer.                                ")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
                         Button {
-                            if buttonColor14 == .gray {
-                                self.buttonColor14 = .green
-                            } else if buttonColor14 == .green {
-                                self.buttonColor14 = .gray
+                            if buttonColor20 == .gray {
+                                self.buttonColor20 = .green
+                            } else if buttonColor20 == .green {
+                                self.buttonColor20 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor14)
+                                .foregroundStyle(buttonColor20)
                         }
                         Text("Finish by stirring in butter, crumbling feta over the top, and dusting with some fresh dill, lemon juice, and freshly ground black pepper.                                ")
                             .font(.custom("Arial", size: 25))
