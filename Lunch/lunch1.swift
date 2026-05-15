@@ -24,6 +24,8 @@ struct lunch1: View {
     @State var buttonColor13: Color = .gray
     @State var buttonColor14: Color = .gray
     @State var buttonColor15: Color = .gray
+    @State var buttonColor16: Color = .gray
+    @State var buttonColor17: Color = .gray
 
     var body: some View {
        
@@ -206,7 +208,7 @@ struct lunch1: View {
                                 .font(.largeTitle)
                                 .foregroundStyle(buttonColor9)
                         }
-                        Text("Toast your bread, if you wish, and allow it to cool for a few minutes. This helps to avoid wilted lettuce.")
+                        Text("Toast your bread, if you wish, and allow it to cool for a few          minutes. This helps to avoid wilted lettuce.")
                             .font(.custom("Arial", size: 25))
                     }
                     HStack{
@@ -256,17 +258,32 @@ struct lunch1: View {
                     }
                     HStack{
                         Button {
-                            if buttonColor12 == .gray {
-                                self.buttonColor12 = .green
-                            } else if buttonColor12 == .green {
-                                self.buttonColor12 = .gray
+                            if buttonColor15 == .gray {
+                                self.buttonColor15 = .green
+                            } else if buttonColor15 == .green {
+                                self.buttonColor15 = .gray
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
                                 .font(.largeTitle)
-                                .foregroundStyle(buttonColor12)
+                                .foregroundStyle(buttonColor15)
                         }
                         Text("Next, stack your meat and cheese, and top with the last slice of bread  mayo side down.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor16 == .gray {
+                                self.buttonColor16 = .green
+                            } else if buttonColor16 == .green {
+                                self.buttonColor16 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor16)
+                        }
+                        Text("Use a well-sharpened knife to cut the sandwich into triangles,    using toothpicks to hold everything together.")
                             .font(.custom("Arial", size: 25))
                     }
                 }

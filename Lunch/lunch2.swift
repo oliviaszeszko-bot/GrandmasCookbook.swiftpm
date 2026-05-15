@@ -187,8 +187,68 @@ struct lunch2: View {
                 VStack {
                     Text("Instructions")
                         .font(.custom("Georgia", size: 43))
-                        
+                    HStack{
+                        Button {
+                            if buttonColor8 == .gray {
+                                self.buttonColor8 = .green
+                            } else if buttonColor8 == .green {
+                                self.buttonColor8 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor8)
+                        }
+                        Text("Preheat oven to 350˚F. Cut the baguette in half lengthwise through the top of the baguette then slice diagonally into 1/4″ thick pieces. Place the breads onto a baking sheet.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor8 == .gray {
+                                self.buttonColor8 = .green
+                            } else if buttonColor8 == .green {
+                                self.buttonColor8 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor8)
+                        }
+                        Text("In a small bowl, combine 3 Tbsp extra virgin olive oil and 1 tsp of finely minced garlic. Drizzle the garlic oil over the croutons and sprinkle the top with 2 Tbsp grated parmesan cheese.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor8 == .gray {
+                                self.buttonColor8 = .green
+                            } else if buttonColor8 == .green {
+                                self.buttonColor8 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor8)
+                        }
+                        Text("Toss until evenly coated.            Spread in a single layer over the baking sheet and bake at 350˚F until light golden and crisp (10-12 minutes), or to desired crispness.    ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor8 == .gray {
+                                self.buttonColor8 = .green
+                            } else if buttonColor8 == .green {
+                                self.buttonColor8 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor8)
+                        }
+                        Text("Rinse, dry* and chop or tear the romaine into bite-sized pieces. Place in a large serving bowl and sprinkle generously with shredded parmesan cheese and cooled croutons. Drizzle with caesar dressing and toss gently until lettuce is evenly coated.")
+                            .font(.custom("Arial", size: 25))
+                    }
                 }
+
                 Spacer()
             }
             .frame(maxWidth: .infinity)
