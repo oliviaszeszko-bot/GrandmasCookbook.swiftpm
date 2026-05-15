@@ -17,6 +17,14 @@ struct lunch1: View {
     @State var buttonColor6: Color = .gray
     @State var buttonColor7: Color = .gray
     @State var buttonColor8: Color = .gray
+    @State var buttonColor9: Color = .gray
+    @State var buttonColor10: Color = .gray
+    @State var buttonColor11: Color = .gray
+    @State var buttonColor12: Color = .gray
+    @State var buttonColor13: Color = .gray
+    @State var buttonColor14: Color = .gray
+    @State var buttonColor15: Color = .gray
+
     var body: some View {
        
         HStack {
@@ -186,7 +194,81 @@ struct lunch1: View {
                 VStack {
                     Text("Instructions")
                         .font(.custom("Georgia", size: 43))
-                        
+                    HStack{
+                        Button {
+                            if buttonColor9 == .gray {
+                                self.buttonColor9 = .green
+                            } else if buttonColor9 == .green {
+                                self.buttonColor9 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor9)
+                        }
+                        Text("Toast your bread, if you wish, and allow it to cool for a few minutes. This helps to avoid wilted lettuce.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor10 == .gray {
+                                self.buttonColor10 = .green
+                            } else if buttonColor10 == .green {
+                                self.buttonColor10 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor10)
+                        }
+                        Text("Spread the 3 pieces of cooled toast with mayo.                           ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor10 == .gray {
+                                self.buttonColor10 = .green
+                            } else if buttonColor10 == .green {
+                                self.buttonColor10 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor10)
+                        }
+                        Text("On one slice, add your lettuce and tomato. Go ahead and add a little salt and pepper to those tomatoes.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor11 == .gray {
+                                self.buttonColor11 = .green
+                            } else if buttonColor11 == .green {
+                                self.buttonColor11 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor11)
+                        }
+                        Text("Put a 2nd piece of bread, mayo side down, on the sandwich.      Then add a little more mayo to the top of that piece.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor12 == .gray {
+                                self.buttonColor12 = .green
+                            } else if buttonColor12 == .green {
+                                self.buttonColor12 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor12)
+                        }
+                        Text("Next, stack your meat and cheese, and top with the last slice of bread  mayo side down.")
+                            .font(.custom("Arial", size: 25))
+                    }
                 }
                 Spacer()
             }
