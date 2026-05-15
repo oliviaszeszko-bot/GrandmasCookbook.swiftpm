@@ -177,7 +177,9 @@ struct snack2: View {
             Divider()
                 .frame(width: 3)
                 .background(Color.gray)
-            VStack {
+            VStack(alignment: .leading) {
+                Text("Instructions")
+                    .font(.custom("Georgia", size: 43))
                 HStack{
                     Button {
                         if buttonColor8 == .gray {
@@ -265,7 +267,7 @@ struct snack2: View {
                             .font(.largeTitle)
                             .foregroundStyle(buttonColor8)
                     }
-                    Text("Place the chickpeas in a medium saucepan and add the baking soda.")
+                    Text("While running the food processor, drizzle in 2 tablespoons ice water. Scrape down the food processor, and blend until the mixture is ultra smooth, pale and creamy. (If your tahini was extra-thick to begin with, you might need to add 1 to 2 tablespoons more ice water.)")
                         .font(.custom("Arial", size: 25))
                 }
                 HStack{
@@ -280,7 +282,7 @@ struct snack2: View {
                             .font(.largeTitle)
                             .foregroundStyle(buttonColor8)
                     }
-                    Text("Place the chickpeas in a medium saucepan and add the baking soda.")
+                    Text("Add the cumin and the drained, over-cooked chickpeas to the food processor. While blending, drizzle in the olive oil. Blend until the mixture is super smooth, scraping down the sides of the processor as necessary, about 2 minutes. Add more ice water by the tablespoon if necessary to achieve a super creamy texture.")
                         .font(.custom("Arial", size: 25))
                 }
                 }

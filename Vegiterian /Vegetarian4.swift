@@ -35,7 +35,7 @@ struct Vegetarian4: View {
                             .padding()
                     }
                     Text("Greek Baked Orzo")
-                        .font(.custom("Georgia", size: 58))
+                        .font(.custom("Georgia", size: 52))
                         .padding(.horizontal)
                     
                     Divider()
@@ -267,7 +267,96 @@ struct Vegetarian4: View {
                 VStack {
                     Text("Instructions")
                         .font(.custom("Georgia", size: 43))
-                        
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("Preheat the oven to 400 deegres.                                                  ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("In a large oven-safe skillet, heat the oil over medium heat.            Add the onin for saute for 5 minutes or until soft.   ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("Add the garlic, red pepper, kale, oregano, red pepper flakes, and salt. Saute for 5 minutes or until the kale is wilted.")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("Add the tomato paste. Saute for 1-2 minutes.                                ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("Add the orzo, canned tomatoes, chicken or chickpeas, and broth. Bring to a simmer.                                ")
+                            .font(.custom("Arial", size: 25))
+                    }
+                    HStack{
+                        Button {
+                            if buttonColor14 == .gray {
+                                self.buttonColor14 = .green
+                            } else if buttonColor14 == .green {
+                                self.buttonColor14 = .gray
+                            }
+                        } label: {
+                            Image(systemName: "checkmark.circle")
+                                .font(.largeTitle)
+                                .foregroundStyle(buttonColor14)
+                        }
+                        Text("Finish by stirring in butter, crumbling feta over the top, and dusting with some fresh dill, lemon juice, and freshly ground black pepper.                                ")
+                            .font(.custom("Arial", size: 25))
+                    }
                 }
                 Spacer()
             }
